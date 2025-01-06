@@ -1,0 +1,54 @@
+/* estilo-login.css */
+body {
+    background: #000000;
+    color: #000000; /* Texto branco */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.titulo-login {
+    text-align: center;
+    color: #ffffff; /* Título branco */
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    background: #1e1e1e; /* Cartão escuro */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card .form-label {
+    color: #ffffff; /* Rótulo branco */
+}
+
+.card .form-control {
+    background-color: #2a2a2a; /* Campo de entrada escuro */
+    border: 1px solid #444; /* Borda mais clara */
+    color: #ffffff; /* Texto branco */
+}
+
+.card .btn {
+    background-color: #6200ea; /* Botão roxo */
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0.75rem;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #3700b3; /* Hover mais escuro */
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
